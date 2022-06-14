@@ -12,4 +12,4 @@ class Warehouse(Base):
     name = Column(String, nullable=False)
     location = Column(String, nullable=False)
 
-    inventory = relationship("Inventory", back_populates="warehouse")
+    inventory = relationship("Inventory", lazy='joined', back_populates="warehouse")

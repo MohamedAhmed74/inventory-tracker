@@ -15,4 +15,4 @@ class Inventory(Base):
     description = Column(String, nullable=True)
     warehouse_id = Column(Integer, ForeignKey("warehouse.id"), nullable=True)
 
-    warehouse = relationship("Warehouse", back_populates="inventory")
+    warehouse = relationship("Warehouse", lazy='joined', back_populates="inventory")

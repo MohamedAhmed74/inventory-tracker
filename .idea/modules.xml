@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CryptoTree.iml" filepath="$PROJECT_DIR$/.idea/CryptoTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/inventory-tracker.iml" filepath="$PROJECT_DIR$/.idea/inventory-tracker.iml" />
     </modules>
   </component>
 </project>

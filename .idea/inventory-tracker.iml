@@ -12,7 +12,6 @@
     <option name="namespacePackageFolders">
       <list>
         <option value="$MODULE_DIR$/backend" />
-        <option value="$MODULE_DIR$/frontend" />
       </list>
     </option>
   </component>
