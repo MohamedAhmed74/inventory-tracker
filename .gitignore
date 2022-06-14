@@ -1,0 +1,4 @@
+venv
+frontend/.env.local
+config.py
+frontend/node_modules
